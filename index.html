@@ -1,28 +1,58 @@
+<!--BUTTON FIN SUPPORT EINSETZEN-->
 <!DOCTYPE html>
 <html lang="de">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>zeichnen-und-loslassen</title>
+    <title>zeichnen-loslassen</title>
+
+    <link href="style.css" rel="stylesheet" /> 
 </head>
 <body>
     <header>
-        <h1>zeichnen-und-loslassen.de</h1>
-        <p>Zeichnungen und Texte <br>
-           zum anschauen und entspannen
-        </p>
-        <img id="logo" src="media/logo.png" />
+        <span id="respo"> &#9776;</span>
+        <div>
+            <a href="index.html"><h1>zeichnen-loslassen.de</h1></a>
+            <p>Zeichnungen und Texte zum Entspannen
+            </p>
+        </div>
+        <a href="index.html"><img id="logo" src="media/logo.png" alt="Die Abbildung zeigt das Logo der Website" /></a>
     </header>
     <nav>
-        <a>Willkommen</a>
-        <a>Zeichnungen</a>
-        <a>Texte</a>
-        <a>Infos</a>
-        <a>Ausblick</a>
+        <a href="#willkommen">Willkommen</a>
+        <a href="#zeichnungen">Zeichnungen</a>
+        <a href="#texte">Texte</a>
+        <a href="#infos">Infos</a>
+        <a href="#ausblick">Ausblick</a>
     </nav>
     <main>
-        <section id="willkommen"></section>
-        <section id="zeichnungen"></section>
+        <section class="flex768" id="willkommen">
+            <h2 class="centered_heading">Willkommen auf ...</h2>
+            <p class="block_content">"zeichnen-loslassen.de" deine Oase für einen Momemt Ruhe.
+                Schau dir die Zeichnungen an und lies die Texte, um dem Alltagsstress zu entkommen.
+                Viel Spaß beim Entspannen!   
+            </p>
+        </section>
+
+        <span class="visual_element"></span>
+
+        <section id="zeichnungen">
+            <div class="border768">
+                <h2 class="centered_heading">Zeichnungen</h2>
+                <p class="block_content">
+                    Hier findest du eine Sammlung meiner Zeichnungen, klicke auf ein Bild, um es zu vergrößern und mehr darüber zu
+                    erfahren.
+                </p>
+            </div>
+            
+            <span class="visual_element"></span>
+            <div id="grid_container" class="grid_container">
+                <!-- Die Zeichnungen werden hier dynamisch geladen -->
+            </div> 
+            <span class="visual_element"></span>
+
+       </section>
+        
         <section id="texte"></section>
         <section id="Infos"></section>
         <section id="Ausblick"></section>
@@ -31,7 +61,8 @@
 
     </footer>
 
-    <script></script>
+    <script src="jQuery/jQuery.js"></script>
+    <script src="script.js"></script>
 </body>
 
 

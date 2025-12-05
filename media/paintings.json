@@ -1,0 +1,39 @@
+{
+    "painting": [
+        {
+            "image": "media/painting1.jpg",
+            "title": "Mary",
+            "description": "Eine japanische Gesha diente als Vorlage für dieses Porträt."
+        },
+        {
+            "image": "media/painting2.jpg",
+            "title": "Kereru",
+            "description": "Eine Taubenart aus Neuseeland."
+        },
+        {
+            "image": "media/painting3.jpg",
+            "title": "rot orangene Lilie",
+            "description":"Eine rot, orangefarbene Lilie mit grünen Blättern." 
+        },
+        {
+            "image": "media/painting4.jpg",
+            "title": "Rose",
+            "description": "Diese Rose symbolisiert Liebe und Leidenschaft."
+        },
+        {
+            "image": "media/painting5.jpg",
+            "title": "Ein blauer Vogel",
+            "description": "Blaue und schwarze Töne stechen hier hervor."
+        },
+        {
+            "image": "media/painting6.jpg",
+            "title": "Ein Kolibri",
+            "description": "Dieser Kolibri ist in lebendigen Farben dargestellt."
+        },
+        {
+            "image": "media/painting7.jpg",
+            "title": "gebundene Blumen",
+            "description": "Gezeichnet wurde diese Skizze in Glenorchy, Neuseeland."
+        }
+    ]
+}
