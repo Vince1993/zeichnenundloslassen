@@ -12,7 +12,7 @@ html{font-size: var(--base-font-size);
      scroll-behavior: smooth;}
      
 *{box-sizing: border-box; margin: 0; padding: 0;}
-a{text-decoration: none; color: inherit;}
+a{text-decoration: none; color: inherit; cursor: pointer;}
 
 header{background-color: var(--bg-black);
        color: white;
@@ -94,6 +94,19 @@ nav a{padding: 15px 20px;
   width: 100%;
   height: 30px;
   background-color: var(--bg-black);}
+
+footer{display: flex;
+       flex-direction: column;
+       align-items: flex-end; 
+       background-color: var(--bg-black);
+       color: white;
+       text-align: center;
+       padding: 15px 0;
+       margin-top: 5px;}
+footer a{color: white;
+         margin: 5px 10px;
+         font-size: 1.1rem;
+         text-decoration: none;}
 
 @media (min-width: 768px){
   header span{display: none;}
