@@ -3,10 +3,11 @@ $(document).ready(function () {
     $("#respo").on('click', open_nav);
 
     load_drawings();
+ 
 });
 
 function open_nav() {
-    $("nav").toggle(1000);
+    $("nav").toggle(800);
 }
 
 function load_drawings() {
@@ -17,7 +18,7 @@ function load_drawings() {
 }
 
 function display_drawings(drawings) {
-    let container = $("#grid_container");
+    let container = $("#grid_container_images");
     $.each(drawings, function (_index, drawing) {
         let drawing_element = `<div class="grid_item">
                                     <img src="${drawing.image}" alt="${drawing.title}"/>
@@ -47,4 +48,8 @@ function toggle_fullscreen(event) {
             document.webkitExitFullscreen();
         }
     }
+}
+
+function smooth_scroll_to(section_id) {
+    smoothScroll.animateScroll(document.querySelector(section_id));
 }
